@@ -1,29 +1,30 @@
-User Authentication & Role-Based Access Control API
+## User Authentication & Role-Based Access Control API
 
-This project implements a secure User Authentication & Authorization System using Node.js, Express.js, MongoDB, and JWT. It provides role-based access control, allowing admins to manage users (block, unblock, delete) while users can register, login, and view their details.
+### This project implements a secure User Authentication & Authorization System using Node.js, Express.js, MongoDB, and JWT. It provides role-based access control, allowing admins to manage users (block, unblock, delete) while users can register, login, and view their details.
 
-🚀 Features
+### 🚀 Features
 
 ✅ User Registration (Admin/User role assignment)
 ✅ JWT Authentication (Login with Token-Based Auth)
 ✅ Role-Based Access Control (Admin & User)
-✅ Admin APIs:
+#### ✅ Admin APIs:
 
-View all users
+* View all users
 
-Block & unblock users (Admins cannot be blocked)
+* Block & unblock users (Admins cannot be blocked)
 
-Delete users
-✅ User APIs:
+* Delete users
 
-View their own details
-✅ Tested using Postman
+#### ✅ User APIs:
 
-🛠 Tech Stack
+* View their own details
+* ✅ Tested using Postman
 
-Backend: Node.js, Express.js
+### 🛠 Tech Stack
 
-Database: MongoDB + Mongoose
+#### Backend: Node.js, Express.js
 
-Security: JWT (JSON Web Tokens), bcrypt.js (Password Hashing)
+#### Database: MongoDB + Mongoose
+
+### Security: JWT (JSON Web Tokens), bcrypt.js (Password Hashing)
 
